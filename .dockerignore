@@ -1,0 +1,26 @@
+# Version control and IDE files
+.git
+.gitignore
+.idea
+.vscode
+*.iml
+.settings
+.project
+.classpath
+
+# Build output (only the packaged JAR is needed)
+target/classes
+target/test-classes
+target/maven-status
+target/maven-archiver
+target/surefire-reports
+target/generated-sources
+target/generated-test-sources
+target/*.original
+
+# Not needed inside the image
+src
+Jenkinsfile
+README.md
+*.md
+*.log
