@@ -6,7 +6,7 @@ import org.springframework.stereotype.Service;
 public class MessageService {
 
     public String getHelloMessage() {
-        return "Hello, Spring Boot!";
+        return "Hello, Spring Boot Its changed!";
     }
 
     public String getWelcomeMessage() {
